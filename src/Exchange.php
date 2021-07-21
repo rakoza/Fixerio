@@ -1,10 +1,10 @@
 <?php
 
-namespace Fadion\Fixerio;
+namespace Rakoza\Fixerio;
 
 use DateTime;
-use Fadion\Fixerio\Exceptions\ConnectionException;
-use Fadion\Fixerio\Exceptions\ResponseException;
+use Rakoza\Fixerio\Exceptions\ConnectionException;
+use Rakoza\Fixerio\Exceptions\ResponseException;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\TransferException;
 

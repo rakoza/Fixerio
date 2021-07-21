@@ -1,11 +1,11 @@
 <?php
 
-namespace Fadion\Fixerio\Facades;
+namespace Rakoza\Fixerio\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Fadion\Fixerio\Exchange
+ * @see \Rakoza\Fixerio\Exchange
  */
 class Exchange extends Facade
 {

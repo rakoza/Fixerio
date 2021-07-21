@@ -1,6 +1,6 @@
 <?php
 
-namespace Fadion\Fixerio;
+namespace Rakoza\Fixerio;
 
 /**
  * A list of avaialable currencies to simplify

@@ -1,8 +1,8 @@
 <?php
 
-use Fadion\Fixerio\Currency;
+use Rakoza\Fixerio\Currency;
 use Mockery as m;
-use Fadion\Fixerio\Exchange;
+use Rakoza\Fixerio\Exchange;
 
 class ExchangeTest extends PHPUnit_Framework_TestCase
 {
@@ -141,13 +141,13 @@ class ExchangeTest extends PHPUnit_Framework_TestCase
         $exchange = new Exchange($client);
 
         $result = $exchange->getResult();
-        $this->assertInstanceOf('\Fadion\Fixerio\Result', $result);
+        $this->assertInstanceOf('\Rakoza\Fixerio\Result', $result);
 
         $this->assertEquals(1.01, $result->getRate(Currency::GBP));
     }
 
     /**
-     * @expectedException Fadion\Fixerio\Exceptions\ResponseException
+     * @expectedException Rakoza\Fixerio\Exceptions\ResponseException
      * @expectedExceptionMessage Some error message
      */
     public function testResponseException()
@@ -164,7 +164,7 @@ class ExchangeTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException Fadion\Fixerio\Exceptions\ResponseException
+     * @expectedException Rakoza\Fixerio\Exceptions\ResponseException
      * @expectedExceptionMessage Some error message
      */
     public function testResponseResultException()

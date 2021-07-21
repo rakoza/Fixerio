@@ -1,6 +1,6 @@
 <?php
 
-namespace Fadion\Fixerio\Exceptions;
+namespace Rakoza\Fixerio\Exceptions;
 
 use Exception;
 

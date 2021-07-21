@@ -1,7 +1,7 @@
 <?php
 
-use Fadion\Fixerio\Currency;
-use Fadion\Fixerio\Result;
+use Rakoza\Fixerio\Currency;
+use Rakoza\Fixerio\Result;
 
 class ResultTest extends PHPUnit_Framework_TestCase
 {

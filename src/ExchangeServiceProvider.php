@@ -1,6 +1,6 @@
 <?php
 
-namespace Fadion\Fixerio;
+namespace Rakoza\Fixerio;
 
 use Illuminate\Support\ServiceProvider;
 
